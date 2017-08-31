@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  font-family: -apple-system, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  padding: 0 6px 6px 6px;
+}
+
+.hiddenImage {
+  display: none;
+}
+
+.hidden, input {
+  opacity: 0;
+}
+
+.container {
+  width: 100%;
+  height: 120px;
+}
+
+.imagePreview {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .2s ease-in-out;
+}
+
+.imagePreview__toast {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  padding: 8px 10px;
+  border-radius: 5px;
+  transition: opacity .2s ease-in-out;
+}
+
+.imagePreview__toast span {
+  display: inline-block;
+  background: red;
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+  margin-right: 8px;
+}
+
+.emptyContainer {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .2s ease-in-out;
+}
+
+.empty {
+  text-align: center;
+}
+
+.empty h3 {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.empty p {
+  margin-top: 5px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: normal;
+}
+
+.colorPalette {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin-top: 6px;
+  transition: opacity .2s ease-in-out;
+}
+
+.colorPalette__color {
+  background: transparent;
+  width: 42px;
+  height: 42px;
+  margin-right: 6px;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  transition: transform .1s ease-in-out, background-color .3s ease-in-out;
+}
+
+.colorPalette__color svg {
+  flex: none;
+  opacity: 0;
+}
+
+.colorPalette__color:last-of-type {
+  margin-right: 0;
+}
+
+.colorPalette__color:hover svg {
+  opacity: 1;
+}
+
+.colorPalette__color:active {
+  transform: scale(0.9);
+}

@@ -1,0 +1,23 @@
+{
+  "name" : "Alembic",
+  "identifier" : "co.awkward.alembic",
+  "version" : "1.0",
+  "description" : "Extract colors from your images.",
+  "commands" : [
+    {
+      "script" : "alembic.js",
+      "handlers": {
+        "run": "onRun",
+        "actions" : {
+           "SelectionChanged.finish" : "onSelectionChanged",
+         },
+      },
+      "name" : "⚗️ Alembic",
+      "identifier" : "co.awkward.alembic.command"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": ["co.awkward.alembic.command"]
+  }
+}
