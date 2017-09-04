@@ -19,13 +19,13 @@ A Sketch plugin that uses [Color Thief](https://github.com/lokesh/color-thief/) 
 
 ## Usage
 
-1. Launch `⚗️ Alembic`
+1. Launch `Plugins › ⚗️ Alembic`
 2. Select the layer you want to extract the colors from
 2. Click a color to copy it to your clipboard
 
 <br>
 <p align="center">
-  <img src="Docs/usage.gif" width="800" alt="Usage">
+  <img src="Docs/usage.gif" width="1000" alt="Usage">
 </p>
 
 ## Installation
