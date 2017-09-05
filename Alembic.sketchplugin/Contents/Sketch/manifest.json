@@ -3,6 +3,7 @@
   "identifier" : "co.awkward.alembic",
   "version" : "1.0",
   "description" : "Extract colors from your images.",
+  "appcast": "https://github.com/awkward/Alembic/master/.appcast.xml",
   "commands" : [
     {
       "script" : "alembic.js",

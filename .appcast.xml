@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Alembic</title>
+    <link>https://github.com/awkward/Alembic</link>
+    <description>Extract colors from your images.</description>
+    <language>en</language>
+    <item>
+      <title>Alembic 1.0</title>
+      <enclosure url="https://github.com/awkward/Alembic/releases/download/v1.0/alembic.sketchplugin.zip" sparkle:version="1.0"/>
+    </item>
+  </channel>
+</rss>
