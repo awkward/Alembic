@@ -39,15 +39,11 @@ Awhile ago, we read this [Tweet](https://twitter.com/jeffreydgroot/status/889803
 2. Select the layer you want to extract the colors from
 2. Click a color to copy it to your clipboard
 
-<p align="center">
-  <img src="Docs/usage.gif" width="760" alt="Usage">
-</p>
+<img src="Docs/usage.gif" width="680" alt="Usage">
 
 You can also use Sketch Runner to quickly launch Alembic.
 
-<p align="center">
-  <img src="Docs/runnerUsage.gif" width="760" alt="Sketch Runner">
-</p>
+<img src="Docs/runnerUsage.gif" width="680" alt="Sketch Runner">
 
 ## Installation
 
