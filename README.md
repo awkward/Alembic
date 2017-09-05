@@ -39,8 +39,6 @@ A Sketch plugin that uses [Color Thief](https://github.com/lokesh/color-thief/) 
   <img src="Docs/usage.gif" width="1000" alt="Usage">
 </p>
 
-<br>
-
 ### Sketch Runner
 
 You can also use Sketch Runner to quickly launch Alembic.
@@ -48,8 +46,6 @@ You can also use Sketch Runner to quickly launch Alembic.
 <p align="center">
   <img src="Docs/runnerUsage.gif" width="1000" alt="Sketch Runner">
 </p>
-
-<br>
 
 ## Installation
 
