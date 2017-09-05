@@ -38,6 +38,18 @@ A Sketch plugin that uses [Color Thief](https://github.com/lokesh/color-thief/) 
   <img src="Docs/usage.gif" width="1000" alt="Usage">
 </p>
 
+### Sketch Runner
+
+<a href="http://bit.ly/SketchRunnerWebsite">
+  <img src="http://bit.ly/RunnerBadgeBlue">
+</a>
+
+You can also use Sketch Runner to quickly launch Alembic.
+
+<p align="center">
+  <img src="Docs/runner.png" width="800" alt="Sketch Runner">
+</p>
+
 ## Installation
 
 1. Download the [latest release](https://github.com/awkward/Alembic/releases/download/v1.0/alembic.sketchplugin.zip)

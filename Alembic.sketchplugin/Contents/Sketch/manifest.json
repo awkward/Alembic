@@ -14,7 +14,9 @@
          },
       },
       "name" : "⚗️ Alembic",
-      "identifier" : "co.awkward.alembic.command"
+      "identifier" : "co.awkward.alembic.command",
+      "description" : "Extract colors from your images.",
+      "icon" : "alembic@2x.png"
     }
   ],
   "menu": {
