@@ -20,7 +20,7 @@
         <img src="Docs/download.png" width="209" alt="Download Alembic">
     </a>
     <a href="http://sketchrunner.com">
-      <img src="Docs/runnerBadge.png" width="184" alt="Download Alembic">
+      <img src="Docs/runnerBadge.png" width="184" alt="Sketch Runner">
     </a>
 </p>
 
@@ -35,19 +35,21 @@ A Sketch plugin that uses [Color Thief](https://github.com/lokesh/color-thief/) 
 2. Select the layer you want to extract the colors from
 2. Click a color to copy it to your clipboard
 
-<br>
-
 <p align="center">
   <img src="Docs/usage.gif" width="1000" alt="Usage">
 </p>
+
+<br>
 
 ### Sketch Runner
 
 You can also use Sketch Runner to quickly launch Alembic.
 
 <p align="center">
-  <img src="Docs/runner.png" width="800" alt="Sketch Runner">
+  <img src="Docs/runnerUsage.gif" width="1000" alt="Sketch Runner">
 </p>
+
+<br>
 
 ## Installation
 
