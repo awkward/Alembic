@@ -51,7 +51,7 @@ You can also use Sketch Runner to quickly launch Alembic.
 
 With Sketch Runner, just go to the `install` command and search for `Alembic`.
 
-<img src="docs/runnerInstall.png" width="680" alt="Install Alembic with Sketch Runner">
+<img src="Docs/runnerInstall.png" width="680" alt="Install Alembic with Sketch Runner">
 
 ### Manually
 
