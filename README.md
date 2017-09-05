@@ -15,13 +15,14 @@
   <img src="Docs/alembic.gif" width="500" alt="Alembic">
 </p>
 
-<br>
-
 <p align='center'>
     <a href="https://github.com/awkward/Alembic/releases/download/v1.0/alembic.sketchplugin.zip">
         <img src="Docs/download.png" width="209" alt="Download Alembic">
     </a>
 </p>
+
+<br>
+<br>
 
 A Sketch plugin that uses [Color Thief](https://github.com/lokesh/color-thief/) under the hood to extract a color palette from any layer that contains bitmap data (both Images and layers with a Pattern fill). Each palette contains 6 colors that you can then copy to your clipboard.
 
