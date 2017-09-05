@@ -19,6 +19,9 @@
     <a href="https://github.com/awkward/Alembic/releases/download/v1.0/alembic.sketchplugin.zip">
         <img src="Docs/download.png" width="209" alt="Download Alembic">
     </a>
+    <a href="http://sketchrunner.com">
+      <img src="Docs/runnerBadge.png" width="184" alt="Download Alembic">
+    </a>
 </p>
 
 <br>
@@ -39,10 +42,6 @@ A Sketch plugin that uses [Color Thief](https://github.com/lokesh/color-thief/) 
 </p>
 
 ### Sketch Runner
-
-<a href="http://bit.ly/SketchRunnerWebsite">
-  <img src="http://bit.ly/RunnerBadgeBlue">
-</a>
 
 You can also use Sketch Runner to quickly launch Alembic.
 
