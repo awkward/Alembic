@@ -31,7 +31,7 @@ A Sketch plugin to extract a color palette from any layer that contains bitmap d
 
 ## Introduction
 
-A while ago, we came across this [Tweet](https://twitter.com/jeffreydgroot/status/889803683927601153) with an idea for a Sketch plugin that extracts color palettes from images. We felt like it was perfect to experiment with and the idea resulted in Alembic.
+Hi, we’re [Awkward](https://awkward.co). A while ago, we came across this [Tweet](https://twitter.com/jeffreydgroot/status/889803683927601153) with an idea for a Sketch plugin that extracts color palettes from images. We felt like it was perfect to experiment with and the idea resulted in Alembic.
 
 ## Usage
 
