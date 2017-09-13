@@ -53,6 +53,10 @@ With Sketch Runner, just go to the `install` command and search for `Alembic`.
 
 <img src="Docs/runnerInstall.png" width="680" alt="Install Alembic with Sketch Runner">
 
+### Using Sketchpacks
+
+Search for `Alembic` in [Sketchpacks](https://sketchpacks.com) or just [install it directly](https://sketchpacks.com/awkward/Alembic/install).
+
 ### Manually
 
 1. Download the [latest release](https://github.com/awkward/Alembic/releases/download/v1.0/alembic.sketchplugin.zip)
