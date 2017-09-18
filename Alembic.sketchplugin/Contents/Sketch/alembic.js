@@ -77,6 +77,16 @@ function onRun(context) {
         expandPanel(panel);
         windowObject.evaluateWebScript("update('" + base64 + "')");
       }
+    }),
+    "webView:didChangeLocationWithinPageForFrame:": (function(webView, webFrame) {
+      var hash = windowObject.evaluateWebScript("window.location.hash.substring(1)");
+      var data = JSON.parse(hash);
+
+      if (data.type == "clipboard") {
+        var clipboard = NSPasteboard.generalPasteboard();
+        clipboard.clearContents();
+        clipboard.setString_forType_(data.color, NSStringPboardType);
+      }
     })
   })
 

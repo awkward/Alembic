@@ -63,12 +63,12 @@ document.addEventListener("DOMContentLoaded", function() {
   for (var i = 0; i < colors.length; i++) {
     colors[i].addEventListener("click", function() {
       var color = this.getAttribute("data-color");
-      var input = document.createElement("input");
-      input.value = color;
-      document.body.appendChild(input);
-      input.select();
-      document.execCommand('copy');
-      document.body.removeChild(input);
+      var data = {
+        "type": "clipboard",
+        "color": color,
+        "date": new Date().getTime()
+      }
+      window.location.hash = JSON.stringify(data);
       document.querySelector(".imagePreview__toast span").style.backgroundColor = color;
       document.querySelector(".imagePreview__toast").classList.remove("hidden");
       if (toastTimeout) clearTimeout(toastTimeout);
