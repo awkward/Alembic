@@ -16,7 +16,7 @@
 </p>
 
 <p align='center'>
-    <a href="https://github.com/awkward/Alembic/releases/download/v1.0/alembic.sketchplugin.zip">
+    <a href="https://github.com/awkward/Alembic/releases/download/v1.0.1/alembic.sketchplugin.zip">
         <img src="Docs/download.png" width="209" alt="Download Alembic">
     </a>
     <a href="http://sketchrunner.com">
@@ -59,7 +59,7 @@ Search for `Alembic` in [Sketchpacks](https://sketchpacks.com) or just [install 
 
 ### Manually
 
-1. Download the [latest release](https://github.com/awkward/Alembic/releases/download/v1.0/alembic.sketchplugin.zip)
+1. Download the [latest release](https://github.com/awkward/Alembic/releases/download/v1.0.1/alembic.sketchplugin.zip)
 2. Open `Alembic.sketchplugin`
 
 ## License

@@ -9,5 +9,9 @@
       <title>Alembic 1.0</title>
       <enclosure url="https://github.com/awkward/Alembic/releases/download/v1.0/alembic.sketchplugin.zip" sparkle:version="1.0"/>
     </item>
+    <item>
+      <title>Alembic 1.0.1</title>
+      <enclosure url="https://github.com/awkward/Alembic/releases/download/v1.0.1/alembic.sketchplugin.zip" sparkle:version="1.0.1"/>
+    </item>
   </channel>
 </rss>
