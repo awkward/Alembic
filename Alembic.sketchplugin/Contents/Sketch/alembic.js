@@ -124,12 +124,7 @@ var onSelectionChanged = function(context) {
     var webView = panel.contentView().subviews()[1];
     var windowObject = webView.windowScriptObject();
 
-    if (base64 == undefined) {
-      minimizePanel(panel);
-      windowObject.evaluateWebScript("emptyState()");
-    } else {
-      expandPanel(panel);
-      windowObject.evaluateWebScript("update('" + base64 + "')");
-    }
+    expandPanel(panel);
+    windowObject.evaluateWebScript(base64 == undefined ? null : "update('" + base64 + "')");
   }
 };
