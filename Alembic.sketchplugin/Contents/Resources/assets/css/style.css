@@ -51,7 +51,6 @@ body {
   flex-direction: column;
   color: #fff;
   font-size: 13px;
-  font-weight: 700;
   background: rgba(0, 0, 0, 0.6);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
