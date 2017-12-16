@@ -16,7 +16,7 @@
 </p>
 
 <p align='center'>
-    <a href="https://github.com/awkward/Alembic/releases/download/v1.0.1/alembic.sketchplugin.zip">
+    <a href="https://github.com/awkward/Alembic/releases/download/v1.1/alembic.sketchplugin.zip">
         <img src="Docs/download.png" width="209" alt="Download Alembic">
     </a>
     <a href="http://sketchrunner.com">
@@ -37,7 +37,7 @@ Hi, we’re [Awkward](https://awkward.co). A while ago, we came across this [Twe
 
 1. Launch `Plugins › ⚗️ Alembic`
 2. Select the layer you want to extract the colors from
-2. Click a color to copy it to your clipboard
+3. Click a color to copy it to your clipboard
 
 <img src="Docs/usage.gif" width="680" alt="Usage">
 
@@ -59,7 +59,7 @@ Search for `Alembic` in [Sketchpacks](https://sketchpacks.com) or just [install 
 
 ### Manually
 
-1. Download the [latest release](https://github.com/awkward/Alembic/releases/download/v1.0.1/alembic.sketchplugin.zip)
+1. Download the [latest release](https://github.com/awkward/Alembic/releases/download/v1.1/alembic.sketchplugin.zip)
 2. Open `Alembic.sketchplugin`
 
 ## License
