@@ -23,6 +23,7 @@ body {
 
 .hidden, input {
   opacity: 0;
+  pointer-events: none;
 }
 
 .container {
@@ -47,17 +48,21 @@ body {
 
 .imagePreview__toast {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   color: #fff;
   font-size: 13px;
-  font-weight: 700;
   background: rgba(0, 0, 0, 0.6);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
-  padding: 8px 10px;
   border-radius: 5px;
   transition: opacity .2s ease-in-out;
+}
+
+.imagePreview__toast div {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
 }
 
 .imagePreview__toast span {
@@ -68,6 +73,36 @@ body {
   border-radius: 2px;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
   margin-right: 8px;
+}
+
+.imagePreview__toast a {
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 10px;
+  height: 32px;
+  line-height: 32px;
+  overflow: hidden;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.imagePreview__toast a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.imagePreview__toast a:active {
+  background: rgba(255, 255, 255, 0);
+}
+
+.imagePreview__toast a.collapsed {
+  color: transparent;
+  height: 0;
 }
 
 .emptyContainer {

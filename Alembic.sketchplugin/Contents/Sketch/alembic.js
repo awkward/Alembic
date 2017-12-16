@@ -86,6 +86,10 @@ function onRun(context) {
         var clipboard = NSPasteboard.generalPasteboard();
         clipboard.clearContents();
         clipboard.setString_forType_(data.color, NSStringPboardType);
+      } else if (data.type == "document") {
+        var documentAssets = context.document.documentData().assets();
+        documentAssets.addColor(MSImmutableColor.colorWithSVGString(data.color).newMutableCounterpart());
+        NSApp.delegate().refreshCurrentDocument();
       }
     })
   })

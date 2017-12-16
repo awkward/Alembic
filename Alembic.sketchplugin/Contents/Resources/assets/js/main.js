@@ -59,24 +59,43 @@ function update(base64) {
 document.addEventListener("DOMContentLoaded", function() {
   var colors = document.querySelectorAll(".colorPalette__color");
   var toastTimeout;
+  var currentColor;
 
   for (var i = 0; i < colors.length; i++) {
     colors[i].addEventListener("click", function() {
+      document.querySelector(".imagePreview__toast a").classList.remove("collapsed");
       var color = this.getAttribute("data-color");
+      currentColor = color;
       var data = {
         "type": "clipboard",
         "color": color,
         "date": new Date().getTime()
       }
       window.location.hash = JSON.stringify(data);
+      document.querySelector(".imagePreview__toast p").innerHTML = "Copied to your clipboard.";
       document.querySelector(".imagePreview__toast span").style.backgroundColor = color;
       document.querySelector(".imagePreview__toast").classList.remove("hidden");
       if (toastTimeout) clearTimeout(toastTimeout);
       toastTimeout = setTimeout(function () {
         document.querySelector(".imagePreview__toast").classList.add("hidden");
-      }, 1000);
+      }, 3000);
     });
   }
+
+  document.querySelector(".imagePreview__toast a").addEventListener("click", function() {
+    document.querySelector(".imagePreview__toast p").innerHTML = "Added to Document Colors";
+    document.querySelector(".imagePreview__toast a").classList.add("collapsed");
+    var data = {
+      type: "document",
+      color: currentColor,
+      date: new Date().getTime()
+    };
+    window.location.hash = JSON.stringify(data);
+    if (toastTimeout) clearTimeout(toastTimeout);
+    toastTimeout = setTimeout(function() {
+      document.querySelector(".imagePreview__toast").classList.add("hidden");
+    }, 3000);
+  });
 });
 
 document.addEventListener("contextmenu", function(e) {
