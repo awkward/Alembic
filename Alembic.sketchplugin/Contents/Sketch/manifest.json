@@ -6,6 +6,7 @@
   "appcast":
     "https://raw.githubusercontent.com/awkward/Alembic/master/.appcast.xml",
   "icon": "icon@2x.png",
+  "author": "Awkward",
   "commands": [
     {
       "script": "alembic.js",
